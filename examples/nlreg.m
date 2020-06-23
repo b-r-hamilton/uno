@@ -50,6 +50,7 @@ lower2 = ypred2 - delta2;
 upper2 = ypred2 + delta2;
 
 hold('on')
+
 plot(x, upper, 'r--','LineWidth',1.5)
 plot(x, lower, 'r--','LineWidth',1.5)
 plot(x, ypred, 'k', 'LineWidth', 2)
